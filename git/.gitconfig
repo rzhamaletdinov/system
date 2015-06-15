@@ -1,0 +1,16 @@
+[push]
+	default = simple
+[user]
+	email = rzhamaletdinov@playflock.com
+	name = rzhamaletdinov
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  blyad = reset --hard
+  oops = commit --amend
+
