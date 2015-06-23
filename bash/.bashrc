@@ -1,0 +1,1 @@
+alias бля='git reset --hard'
